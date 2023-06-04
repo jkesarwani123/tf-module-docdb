@@ -1,4 +1,4 @@
-# Create a DocDB instance
+# Create a DocDB Subnet Group
 resource "aws_docdb_subnet_group" "main" {
   name       = "${var.name}-${var.env}-sng"
   subnet_ids = var.subnets
